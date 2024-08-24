@@ -1,1 +1,1 @@
-https://github.com/vsalaev/
+https://github.com/vsalaev/nado_sdelat_idealno-main.git
