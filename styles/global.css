@@ -36,7 +36,7 @@ html {
   object-position: center;
 }
 
-.page_title {
+.page__heading {
   z-index: 1;
   max-width: 720px;
   margin: 0 auto;
@@ -47,17 +47,17 @@ html {
   text-transform: uppercase;
 }
 
-.page_title::after {
+.page__heading::after {
   content: '*';
   position: relative;
 }
 
-.page_title:hover {
+.page__heading:hover {
   color: #4c4c4c;
   cursor: default;
 }
 
-.page_title:hover::before {
+.page__heading:hover::before {
   content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
   position: absolute;
   top: 180px;
